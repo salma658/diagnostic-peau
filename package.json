@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,15 +12,10 @@
   "dependencies": {
     "firebase": "^12.1.0"
   },
-  "name": "test-firestore",
-  "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
-  
-  
 }
-
-
